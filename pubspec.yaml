@@ -1,0 +1,60 @@
+name: atlas_dashboard
+description: A cross-platform analytics dashboard focused on real-time insights, modular data visualization, and performance-aware UI architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.0
+  
+  # Routing
+  go_router: ^13.0.0
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  fl_chart: ^0.65.0
+  
+  # Data & Networking
+  http: ^1.1.0
+  
+  # Real-time data
+  web_socket_channel: ^2.4.0
+  
+  # Utilities
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  
+  # Animations
+  animations: ^2.0.8
+  
+  # Icons
+  font_awesome_flutter: ^10.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
