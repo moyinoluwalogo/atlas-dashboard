@@ -2,7 +2,6 @@
 
 A cross-platform analytics dashboard focused on real-time insights, modular data visualization, and performance-aware UI architecture.
 
-
 1. Add simulated data sources for development and testing
 
 Description:
