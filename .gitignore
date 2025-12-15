@@ -1,0 +1,71 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Coverage
+coverage/
+lcov.info
+
+# Test related
+.test_coverage.dart
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS
+.fvm/
+
+# Web
+/web/flutter_service_worker.js
+/web/index.html
+/web/main.dart.js
+/web/manifest.json
+/web/version.json
+
+# Windows
+windows/flutter/ephemeral/
