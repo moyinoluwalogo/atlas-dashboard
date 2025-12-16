@@ -15,6 +15,3 @@ Description:
 Capture early architectural and design choices in the README, including alternatives considered and reasons for rejection, to preserve context as the codebase evolves.
 
 3. Identify potential performance risks in layout rendering
-
-Description:
-Review the dashboard layout and rendering pipeline to highlight potential performance bottlenecks, especially under frequent updates or larger widget counts.
